@@ -52,9 +52,11 @@ End Sub
 Sub optionsMenu()
     if m.global.Options = 0
         m.ShowBar.control = "start"
+        m.RowList.setFocus(true)
         hideHint()
     else
         m.HideBar.control = "start"
+        m.Video.setFocus(true)
         showHint()
     End if
 End Sub

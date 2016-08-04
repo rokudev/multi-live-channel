@@ -1,28 +1,14 @@
-
-#
-#  Copyright (c) 2016 Roku, Inc. All rights reserved.
-#  Roku Channel Manifest File
-#  Full spec at bit.ly/roku-manifest-file
-#
-
-# Channel Details
 title=EasyVideoStreaming
 major_version=1
 minor_version=0
-build_version=240
-
-# Channel Assets
-mm_icon_focus_hd=pkg:/locale/default/images/icon_focus_hd.png
-mm_icon_focus_sd=pkg:/locale/default/images/icon_focus_sd.png
-mm_icon_side_hd=pkg:/locale/default/images/icon_side_hd.png
-mm_icon_side_sd=pkg:/locale/default/images/icon_side_sd.
-
-# Splash Screen + Loading Screen Artwork
-# No Splashscreen currently available
-
-# Libraries
+build_version=245
+mm_icon_focus_hd=pkg:/images/ochotv-720-splash.png
+mm_icon_focus_sd=pkg:/images/ochotv-360-splash.png
+mm_icon_side_hd=pkg:/images/ochotv-720-splash.png
+mm_icon_side_sd=pkg:/images/ochotv-360-splash.png
 requires_audiometadata=1
 bs_libs_required=roku_ads_lib
-
-# Resolution
+splash_screen_fhd=pkg:/images/ochotv-1080-splash.png
+splash_screen_hd=pkg:/images/ochotv-720-splash.png
+splash_screen_sd=pkg:/images/ochotv-360-splash.png
 ui_resolutions=fhd

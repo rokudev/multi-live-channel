@@ -14,39 +14,39 @@ Function loadConfig() as Object
     
 {
     Title: "Roku Example One"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
 {
     Title: "Roku Example Two"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
 {
     Title: "Roku Example Three"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
 {
     Title: "Roku Example Four"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
 {
     Title: "Roku Example Five"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
 {
     Title: "Roku Example Six"
-    streamFormat: "hls"
+    streamFormat: "mp4"
     Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "http://hls.ted.com/talks/2439.m3u8"
+    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
 }
     
     
