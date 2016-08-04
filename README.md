@@ -22,14 +22,14 @@ This sample channel can be used as an easy way to publish content. All it needs 
 
 ## Directory Structure
 * **Components:** SceneGraph Components
-  * 'Config.brs' This is a file where the user can enter their stream info
-  * 'HomeScene.brs' This is the back-end for the UI. It tracks and monitors video playback to play ads and handles channel change events.
-  * 'HomeScene.xml' Creates all SceneGraph nodes displayed in the UI
-  * 'RowListItems.xml' Formats RowList to have captions, poster-size, etc.
+  * `Config.brs` This is a file where the user can enter their stream info
+  * `HomeScene.brs` This is the back-end for the UI. It tracks and monitors video playback to play ads and handles channel change events.
+  * `HomeScene.xml` Creates all SceneGraph nodes displayed in the UI
+  * `RowListItems.xml` Formats RowList to have captions, poster-size, etc.
   * **tasks**
-    * 'RowListContentTask.xml' Goes through stream contents and stores all data in content nodes for RowList
+    * `RowListContentTask.xml` Goes through stream contents and stores all data in content nodes for RowList
 * **Source::** Contains Main method
-  * 'Main.brs' Creates screen to display UI when channel starts. Contains setup for RAF integration
+  * `Main.brs` Creates screen to display UI when channel starts. Contains setup for RAF integration
   
 ## Channel Flow
 * **Event:** Upon starting the channel, the stream info is parsed and all content is passed to the SceneGraph nodes.
