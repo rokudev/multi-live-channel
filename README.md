@@ -1,24 +1,30 @@
-# Multi-Live-Channel
+# Multi Live Channel
 Fully working streaming channel - accepts multiple streams and creates streaming channel with RAF integrated.
+
+![Sample Multi Station Channel Screen Shot](/images/multi-live-channel-screenshot.jpg)
 
 ## Use Case
 
-This sample channel can be used as an easy way to publish content. All it needs is a stream link, title, and logo. RAF is already integrated into the Channel
+This sample channel is an easy way to publish a live station of multiple live stations. Simply add your stream or video URL, title, and logo.
+
+In addition the Roku Ad Framework is already integrated into the Channel. 
+
+**Video Formats:** For the full list of supported Video formats on Roku devices, refer to our docs at https://sdkdocs.roku.com/display/sdkdoc/Video+Encoding+Guidelines
 
 ## How to run this channel
 
 * Have you stream URL ready
-* Download the Multi-Live Channel from our Github account [github.com/rokudev](https://github.com/rokudev/Multi-Live-Channel)
-* Locate the Config.brs file in the components folder and follow the instructions in the file to enter your info for your stream
-* Select all the files and folders and .zip up the package (no containing folder needed)
-* Load the application onto your Roku [read the developer setup guide] (https://blog.roku.com/developer/2016/02/04/developer-setup-guide/)
+* Download the Multi-Live Channel from https://github.com/rokudev/Multi-Live-Channel
+* Locate the `Config.brs` file in the components folder and follow the instructions in the file to enter your info for your stream
+* Select all the files and folders and .zip up the package (note: do not zip the containing folder)
+* Load the application onto your Roku device [read the developer setup guide] (https://blog.roku.com/developer/2016/02/04/developer-setup-guide/)
 
 ## Features
 
-* Predesigned template for streaming content
+* Pre-made template for streaming live television content
 * Includes easy functionality to just plug, play, and publish
-* Uses a custom bottom bar to navigate channels while watching video content
-* Implements RAF into channel
+* Custom lower third navgiation for supporting multiple channels
+* Incorporates the Roku Ad Framework as an example
 
 ## Directory Structure
 * **Components:** SceneGraph Components
@@ -30,7 +36,7 @@ This sample channel can be used as an easy way to publish content. All it needs 
     * `RowListContentTask.xml` Goes through stream contents and stores all data in content nodes for RowList
 * **Source::** Contains Main method
   * `Main.brs` Creates screen to display UI when channel starts. Contains setup for RAF integration
-  
+
 ## Channel Flow
 * **Event:** Upon starting the channel, the stream info is parsed and all content is passed to the SceneGraph nodes.
 * **Event:** The content is loaded into a RowList and all channel artwork is created.
