@@ -1,5 +1,5 @@
 # Multi Live Channel
-Proof of concept streaming channel - accepts multiple streams and creates streaming channel with RAF integrated.
+Proof of concept streaming channel - for a single live video stream or multiple live stations with navigation. Roku Ads are integrated in the channel.
 
 ![Sample Multi Station Channel Screen Shot](/images/multi-live-channel-screenshot.jpg)
 
