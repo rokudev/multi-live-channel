@@ -6,9 +6,9 @@
 	<interface>
 		<field id = "itemContent" type = "node" onChange = "itemContentChanged" />
 		<field id = "height" type = "float" onChange= "updateLayout" />
-		<field id = "width" type = "float" onChange = "updateLayout" /> 
+		<field id = "width" type = "float" onChange = "updateLayout" />
 	</interface>
-	
+
 	<script type = "text/brightscript">
 		<![CDATA[
 			Sub init()
@@ -16,13 +16,13 @@
 				m.Label = m.top.findNode("label")
 				m.Label.font.size = "20"
 			End Sub
-			
+
 			Sub itemContentChanged()
 				m.Poster.uri = m.top.itemContent.HDPosterUrl
 				m.Label.text = m.top.itemContent.Title
 				updateLayout()
 			End Sub
-			
+
 			Sub updateLayout()
 				if m.top.height > 0 and m.top.width > 0
 					m.Poster.width = m.top.width
@@ -31,13 +31,13 @@
 					m.Label.width = m.Poster.width
 				end if
 			End Sub
-			
+
 		]]>
 	</script>
-		
+
 	<children>
 	<!-- Aspect ratio for thumbnails is 16:9 -->
-		<Poster 
+		<Poster
 			id = "poster"
 			height = "150"
 			width = "267"
