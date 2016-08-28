@@ -34,7 +34,7 @@ In addition the Roku Ad Framework is already integrated into the Channel.
   * `RowListItems.xml` Formats RowList to have captions, poster-size, etc.
   * **tasks**
     * `RowListContentTask.xml` Goes through stream contents and stores all data in content nodes for RowList
-* **Source::** Contains Main method
+* **Source:** Contains Main method
   * `Main.brs` Creates screen to display UI when channel starts. Contains setup for RAF integration
 
 ## Channel Flow
