@@ -4,3 +4,7 @@
 .project
 
 out/multi-live-channel.zip
+
+images/.DS_Store
+
+.DS_Store
