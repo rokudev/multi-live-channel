@@ -1,5 +1,7 @@
 # Multi Live Channel
-Proof of concept streaming channel - for a single live video stream or multiple live stations with navigation. Roku Ads are integrated in the channel.
+Proof of concept streaming channel - for a single live video stream or multiple live stations with navigation. Roku Ads are integrated in the channel. For more info about the Roku Ad Framework, please contact advertising@roku.com.
+
+This channel is publishing ready and can be used as a template for a Roku channel.
 
 ![Sample Multi Station Channel Screen Shot](/images/multi-live-channel-screenshot.jpg)
 
@@ -7,7 +9,7 @@ Proof of concept streaming channel - for a single live video stream or multiple 
 
 This sample channel is an easy way to publish a live station of multiple live stations. Simply add your stream or video URL, title, and logo.
 
-In addition the Roku Ad Framework is already integrated into the Channel.
+In addition, the Roku Ad Framework is already integrated into the Channel.
 
 **Video Formats:** For the full list of supported Video formats on Roku devices, refer to our docs at https://sdkdocs.roku.com/display/sdkdoc/Video+Encoding+Guidelines
 
