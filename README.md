@@ -1,3 +1,11 @@
+# multi-live-channel has moved to GitLab
+
+**This project has moved.** Development now continues at **https://gitlab.com/rokudev/multi-live-channel**.
+
+This GitHub repository is archived and read-only. It is kept only as a pointer to the new home. Please open new issues and merge requests on GitLab.
+
+---
+
 # Multi Live Channel
 Proof of concept streaming channel - for a single live video stream or multiple live stations with navigation. Roku Ads are integrated in the channel. For more info about the Roku Ad Framework, please contact advertising@roku.com.
 
